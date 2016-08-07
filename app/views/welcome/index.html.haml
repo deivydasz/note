@@ -2,7 +2,8 @@
 	.banner_content
 		%h1 NoteNote
 		%p Your online notebook. Never forget an idea again.
-		%button= link_to "Sign Up", new_user_registration_path
+		.wrapper
+			= link_to "Sign Up", new_user_registration_path, class: "button"
 #testimonial
 	.wrapper
 		%p.quote "The greatest notebook application. Period."
@@ -29,8 +30,7 @@
 		%h2 For Realz!
 		%p I want you to sign up... If you don’t. I will find you!
 		%p
-		.buttons
-			= link_to "Click Meee!!!", new_user_registration_path, class: "button"
+		= link_to "Click Meee!!!", new_user_registration_path, class: "button"
 
 %footer
 	%p &copy; ecuSinner
