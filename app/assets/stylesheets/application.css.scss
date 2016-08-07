@@ -13,7 +13,9 @@
 
  *= require_self
  */
-@import 'normalize.css';
+@import 'normalize';
 @import 'global.css.scss';
-@import 'notes.css.scss';
-@import 'welcome.css.scss';
+@import 'welcome.scss';
+@import 'notes.scss';
+
+
