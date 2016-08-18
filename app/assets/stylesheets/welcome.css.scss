@@ -1,7 +1,7 @@
 
 
 #banner {
-	background-image: image-url("welcome_banner_image.jpg");
+	background-image: asset-data-url("welcome_banner_image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
